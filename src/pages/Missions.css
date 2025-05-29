@@ -1,0 +1,36 @@
+.missions {
+  text-align: center;
+}
+
+.mission-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.mission-card {
+  background: #fff;
+  border: 3px solid #7df9ff;
+  border-radius: 18px;
+  padding: 1.5rem 1.2rem;
+  width: 270px;
+  min-height: 160px;
+  box-shadow: 0 2px 8px #0001;
+  text-align: left;
+  text-decoration: none;
+  color: #222;
+  display: block;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+.mission-card:hover {
+  border: 3px solid #ff8c00;
+  box-shadow: 0 6px 20px #ff8c0022;
+}
+.mission-card h3 {
+  margin-top: 0;
+  color: #c300c3;
+  font-size: 1.25rem;
+}
